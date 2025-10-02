@@ -4,14 +4,15 @@ import json
 import chromadb
 from chromadb.utils import embedding_functions
 from typing import List, Dict
-from config import CHROMA_PATH, DATA_PATH
+from config import CHROMA_PATH, DATA_PATH, OPENAI_API_KEY
 
 COLLECTION = "book_summaries"
 
 def build_or_load_collection():
     client = chromadb.PersistentClient(path=str(CHROMA_PATH))
     ef = embedding_functions.OpenAIEmbeddingFunction(
-        api_key=os.getenv("OPENAI_API_KEY"),
+        # api_key=os.getenv("OPENAI_API_KEY"),
+        api_key = OPENAI_API_KEY,
         model_name=os.getenv("EMBED_MODEL", "text-embedding-3-small"),
     )
     try:
