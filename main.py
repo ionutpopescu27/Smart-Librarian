@@ -1,17 +1,12 @@
 from __future__ import annotations
-
-import os
-from typing import Optional
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
-# Load .env for local dev (safe: does nothing in prod if .env missing)
 load_dotenv()
 
 # --- Import your RAG pipeline ---
-# These must already exist from your previous steps.
 from rag_core import retrieve_candidates, llm_recommend_and_call_tool
 
 # --- Pydantic models (request/response) ---

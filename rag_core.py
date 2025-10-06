@@ -1,9 +1,17 @@
 from typing import List, Dict, Any
+
+from cryptography.hazmat.primitives.serialization import load_der_private_key
 from openai import OpenAI
+import os
 import re
 from ingest import ensure_index
 from tools import get_summary_by_title
-from config import OPENAI_API_KEY, CHAT_MODEL
+from config import  CHAT_MODEL
+from dotenv import load_dotenv
+
+load_dotenv();
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY");
+
 client = OpenAI(api_key=OPENAI_API_KEY)  # expects OPENAI_API_KEY in env
 from jailbreak_intents import OOD_HARD
 
@@ -137,7 +145,7 @@ def llm_recommend_and_call_tool(user_query: str, candidates: List[Dict[str, str]
         try:
             clar = client.chat.completions.create(
                 model=CHAT_MODEL,
-                temperature=0.2,
+                temperature=0,
                 messages=[
                     {"role": "system", "content": SYSTEM_CLARIFIER},
                     {"role": "user", "content": (
@@ -168,7 +176,7 @@ def llm_recommend_and_call_tool(user_query: str, candidates: List[Dict[str, str]
         try:
             clar = client.chat.completions.create(
                 model=CHAT_MODEL,
-                temperature=0.2,
+                temperature=0,
                 messages=[
                     {"role": "system", "content": SYSTEM_CLARIFIER},
                     {"role": "user", "content": f"User request seems non-book/ambiguous: {user_query}"},
@@ -197,7 +205,7 @@ def llm_recommend_and_call_tool(user_query: str, candidates: List[Dict[str, str]
     # First pass: let the model choose and (ideally) call the tool
     first = client.chat.completions.create(
         model=CHAT_MODEL,
-        temperature=0.3,
+        temperature=0.1,
         tools=tools,
         tool_choice="auto",
         messages=messages,
@@ -229,7 +237,7 @@ def llm_recommend_and_call_tool(user_query: str, candidates: List[Dict[str, str]
     # Retry forcing tool call once
     retry = client.chat.completions.create(
         model=CHAT_MODEL,
-        temperature=0.2,
+        temperature=0,
         tools=tools,
         tool_choice="required",
         messages=messages,

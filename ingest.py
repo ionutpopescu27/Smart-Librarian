@@ -1,10 +1,13 @@
-# ingest.py
 import os
 import json
 import chromadb
 from chromadb.utils import embedding_functions
 from typing import List, Dict
-from config import CHROMA_PATH, DATA_PATH, OPENAI_API_KEY
+from config import CHROMA_PATH, DATA_PATH
+from dotenv import load_dotenv
+
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 COLLECTION = "book_summaries"
 

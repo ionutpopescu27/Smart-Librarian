@@ -38,5 +38,125 @@
   {
     "title": "Animal Farm",
     "summary": "Farm animals overthrow their human owner and attempt to create an equal society, only to be manipulated by the pigs. An allegory about power, corruption, and betrayal."
+  },
+  {
+    "title": "The 48 Laws of Power",
+    "summary": "Robert Greene’s classic manual on power dynamics distills three thousand years of political history into 48 laws. It explains strategies for gaining, defending, and wielding power, drawing on examples from Machiavelli to Sun Tzu. Themes include manipulation, strategy, and influence."
+  },
+  {
+    "title": "The Art of Seduction",
+    "summary": "Robert Greene explores historical archetypes of seduction and psychological manipulation. The book categorizes different seducer types and provides strategies for persuasion and allure, emphasizing charm, mystery, and control in social and romantic power plays."
+  },
+  {
+    "title": "The 33 Strategies of War",
+    "summary": "Robert Greene analyzes warfare principles and how they translate into everyday strategy, competition, and leadership. Drawing from military history, philosophy, and psychology, it teaches defensive and offensive tactics for navigating conflict and adversity."
+  },
+  {
+    "title": "The 50th Law",
+    "summary": "A collaboration between Robert Greene and rapper 50 Cent, this book combines street wisdom with philosophical reflection on fearlessness. It promotes embracing reality, taking calculated risks, and mastering adversity through courage and adaptability."
+  },
+  {
+    "title": "Mastery",
+    "summary": "Robert Greene examines the lives of great masters like Leonardo da Vinci, Darwin, and Mozart to uncover patterns of learning, mentorship, and perseverance. The book explains how deep practice and patience lead to creative excellence and personal mastery."
+  },
+  {
+    "title": "100M Offers: How to Make Offers So Good People Feel Stupid Saying No",
+    "summary": "Alex Hormozi provides a practical guide to crafting irresistible business offers. He breaks down value perception, pricing psychology, and market positioning to help entrepreneurs scale revenue and dominate their niche."
+  },
+  {
+    "title": "$100M Leads: How to Get Strangers To Want To Buy Your Stuff",
+    "summary": "Alex Hormozi focuses on generating consistent, high-quality leads for any business. He shares frameworks for marketing channels, messaging, and tracking to convert attention into profitable growth at scale."
+  },
+  {
+    "title": "Gym Launch Secrets",
+    "summary": "Alex Hormozi documents his journey building a multimillion-dollar gym consulting business. The book teaches fitness entrepreneurs how to create compelling offers, improve client retention, and scale using proven systems."
+  },
+  {
+    "title": "The Almanack of Naval Ravikant",
+    "summary": "A compilation of Naval Ravikant’s wisdom on wealth, happiness, and decision-making. It explores mental models, self-education, leverage, and how to design a life that balances freedom and fulfillment."
+  },
+  {
+    "title": "Atomic Habits",
+    "summary": "James Clear’s bestselling book explains how small, consistent habits compound into major life changes. It offers a practical framework for behavior design through identity shifts, cues, rewards, and habit stacking."
+  },
+  {
+    "title": "Deep Work",
+    "summary": "Cal Newport argues that focused, distraction-free work produces the most value and satisfaction in a knowledge economy. The book offers rules for cultivating deep concentration and eliminating shallow digital habits."
+  },
+  {
+    "title": "So Good They Can't Ignore You",
+    "summary": "Cal Newport challenges the ‘follow your passion’ myth, arguing that mastery and rare skills create fulfilling careers. He emphasizes deliberate practice, patience, and developing career capital."
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "summary": "Mark Manson’s self-help guide rejects toxic positivity and advocates for finding meaning through struggle. It teaches choosing what truly matters and accepting life’s limitations with honesty and humor."
+  },
+  {
+    "title": "Everything Is F*cked: A Book About Hope",
+    "summary": "Mark Manson explores the paradoxes of modern hope and human motivation. He mixes philosophy, psychology, and irreverent humor to examine how belief systems shape our sense of meaning and purpose."
+  },
+  {
+    "title": "The Psychology of Money",
+    "summary": "Morgan Housel shares timeless lessons on wealth, greed, and happiness. Through short stories, he demonstrates how behavior often matters more than knowledge in building financial success and emotional security."
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "summary": "Robert Kiyosaki contrasts two mindsets toward money—one focused on job security and the other on financial independence. It teaches financial literacy, asset building, and escaping the paycheck-to-paycheck cycle."
+  },
+  {
+    "title": "Think and Grow Rich",
+    "summary": "Napoleon Hill’s classic on mindset and success distills decades of interviews with wealthy individuals. It presents 13 principles for turning desire into achievement through persistence, planning, and belief."
+  },
+  {
+    "title": "The Millionaire Fastlane",
+    "summary": "MJ DeMarco argues that traditional financial advice is too slow. He presents a framework for entrepreneurship, scalability, and control as the real path to wealth and freedom."
+  },
+  {
+    "title": "The Lean Startup",
+    "summary": "Eric Ries introduces a scientific approach to building startups. It emphasizes iterative product development, validated learning, and rapid adaptation to create businesses that meet customer needs efficiently."
+  },
+  {
+    "title": "Zero to One",
+    "summary": "Peter Thiel outlines how to build groundbreaking startups that move the world from zero to one—creating something truly new instead of copying existing ideas. He discusses monopoly, innovation, and vision."
+  },
+  {
+    "title": "The Hard Thing About Hard Things",
+    "summary": "Ben Horowitz offers brutally honest insights about building and running startups. He discusses managing crises, hiring, firing, and the emotional realities of leadership in high-growth companies."
+  },
+  {
+    "title": "Principles: Life and Work",
+    "summary": "Ray Dalio shares the decision-making principles that guided his success at Bridgewater Associates. He emphasizes radical transparency, meritocracy, and systems thinking as tools for personal and organizational growth."
+  },
+  {
+    "title": "The Courage to Be Disliked",
+    "summary": "Based on Adlerian psychology, this Japanese bestseller teaches that happiness comes from self-acceptance and freedom from social approval. It frames life as a series of choices driven by meaning, not validation."
+  },
+  {
+    "title": "Man’s Search for Meaning",
+    "summary": "Viktor Frankl reflects on his experiences in Nazi concentration camps and develops logotherapy—the idea that purpose and meaning are fundamental to psychological resilience and fulfillment."
+  },
+  {
+    "title": "The Power of Now",
+    "summary": "Eckhart Tolle teaches spiritual awakening through presence and mindfulness. The book explains how to quiet the mind, dissolve ego, and live fully in the present moment."
+  },
+  {
+    "title": "Meditations",
+    "summary": "Marcus Aurelius’s Stoic reflections offer timeless guidance on virtue, discipline, and perspective. His journal entries reveal a ruler’s struggle to live ethically and calmly amid chaos."
+  },
+  {
+    "title": "12 Rules for Life: An Antidote to Chaos",
+    "summary": "Jordan Peterson offers 12 life principles grounded in psychology, mythology, and philosophy. The book encourages responsibility, order, and personal meaning as antidotes to modern chaos."
+  },
+  {
+    "title": "Beyond Order: 12 More Rules for Life",
+    "summary": "Jordan Peterson expands on his previous work, exploring how balance between structure and creativity helps individuals thrive amid uncertainty and societal change."
+  },
+  {
+    "title": "Can’t Hurt Me",
+    "summary": "David Goggins’s memoir details his transformation from an overweight, insecure man into a Navy SEAL and endurance athlete. It teaches mental toughness, discipline, and embracing pain for growth."
+  },
+  {
+    "title": "Extreme Ownership",
+    "summary": "Jocko Willink and Leif Babin draw lessons from Navy SEAL leadership. They explain how taking total responsibility—on the battlefield and in business—creates trust, discipline, and high performance."
   }
 ]
