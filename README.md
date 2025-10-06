@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ### Set up a working OpenAI API key in a .env file:
 ```commandline
-OPENAI_API_KEY=sk-xxxx
+OPENAI_API_KEY= your-api-key
 ```
 ### Build the Vector Index (first run)
 ```
